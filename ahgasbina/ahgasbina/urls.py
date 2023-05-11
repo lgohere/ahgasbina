@@ -21,12 +21,12 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("api/", include("ahgasbina.base.urls")),
     path(
-        "api/core/",
+        "",
         include("ahgasbina.core.urls"),
     ),]
 
 # urlpatterns = [
-#     path('admin/', admin.site.urls),
+#     path('admin/', admin.site.urls),  
 #     path('recebezap/', include('recebezap.urls')),
     
 # ]
