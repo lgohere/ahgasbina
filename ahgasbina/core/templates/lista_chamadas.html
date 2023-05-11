@@ -21,7 +21,7 @@
 
       function verificarNovasChamadas() {
         var lastId = parseInt(localStorage.getItem("lastId") || "0");
-        var url = "/api/core/novas_chamadas/?last_id=" + lastId;
+        var url = "/novas_chamadas/?last_id=" + lastId;
         var telefone = $("#input-telefone").val();
 
         $.getJSON(url, function (chamadas) {
