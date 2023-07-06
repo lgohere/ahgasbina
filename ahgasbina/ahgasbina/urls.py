@@ -23,7 +23,8 @@ urlpatterns = [
     path(
         "",
         include("ahgasbina.core.urls"),
-    ),]
+    ),
+    ]
 
 # urlpatterns = [
 #     path('admin/', admin.site.urls),  
